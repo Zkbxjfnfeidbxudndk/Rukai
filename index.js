@@ -23,7 +23,7 @@ font: 'chrome',
 align: 'center',
 colors: ['red']
 });
-say(`Developed By • Ivan`, {
+say(`Developed By • luffy`, {
 font: 'console',
 align: 'center',
 colors: ['yellow']
