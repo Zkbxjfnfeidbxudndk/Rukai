@@ -1,8 +1,8 @@
 {
 
-  "name": "LoliBot-MD",
+  "name": "rukaiBot-MD",
 
-  "version": "1.9.8",
+  "version": "1.0.0",
 
   "description": "Super Bot WhatsApp",
 
@@ -34,7 +34,7 @@
 
   },
 
-  "homepage": "https://github.com/elrebelde21/LoliBot-MD",
+  "homepage": "https://github.com/Zkbxjfnfeidbxudndk/Rukai.git",
 
   "author": {
 
@@ -46,7 +46,7 @@
 
     "type": "git",
 
-    "url": "git+https://github.com/elrebelde21/LoliBot-MD.git"
+    "url": "git+https://github.com/Zkbxjfnfeidbxudndk/Rukai.git"
 
   },
 
