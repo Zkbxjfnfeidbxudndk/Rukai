@@ -16,12 +16,12 @@ const rl = createInterface(process.stdin, process.stdout);
 say('rukai-Bot\nMD', {
 font: 'block',
 align: 'center',
-colors: ['red']
+colors: ['black']
 });
-say(`Multi Device`, {
+say(`OWNER LUFFY `, {
 font: 'chrome',
 align: 'center',
-colors: ['red']
+colors: ['black']
 });
 say(`Developed By • luffy`, {
 font: 'console',
