@@ -1,0 +1,48 @@
+// ضع مواقع تواصل
+{
+"info": {
+"accounts": {
+"youTube": "",
+"instagram": "https://www.instagram.com/yoruichi.xd1",
+"gatabot_md": "https://github.com/Zkbxjfnfeidbxudndk/Rukai.git",
+"gatabotlite_md": "https://github.com/Zkbxjfnfeidbxudndk/Rukai.git",
+"facebook": "",
+"tiktok": "https://www.tiktok.com/rukia_b.l",
+"threads": "",
+"paypal": "",
+"github": "https://github.com/Zkbxjfnfeidbxudndk/Rukai.git",
+"mail": "",
+"all": ""
+},
+"channels": {
+"channel1": "https://whatsapp.com/channel/0029VbA5scz0VycPOBi6A32G",// ضع رابط قناه
+"channel2": "https://whatsapp.com/channel/0029VbA5scz0VycPOBi6A32G",
+"channel3": "https://whatsapp.com/channel/0029VbA5scz0VycPOBi6A32G",
+"channel4": ""
+},
+"groups": {
+"group1": "",//ضع رابط المجموعات
+"group2": "",
+"group3": "",
+"group4": "",
+"group5": "",
+"group6": ""
+},
+"collaboration": {
+"group1": "",
+"group2": "",
+"group3": "",
+"group4": ""
+},
+"sponsors": {
+"boxmine": "https://boxmineworld.com",
+"SkyUltraPlus": "https://skyultraplus.com",
+"vortexus": "https://vortexuscloud.com"
+},
+"others": {
+"assistance_num": "https://wa.me/message/MEKOUFBEOG5ED1",
+"yt_vid": "https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s",
+"group_support": "https://chat.whatsapp.com/BpoXxhKl33C9EI4v4mWDHh"
+}
+}
+}
