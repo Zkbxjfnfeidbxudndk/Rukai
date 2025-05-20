@@ -409,7 +409,7 @@ import(`${file}?update=${Date.now()}`);
 //مواقع تواصل
 global.yt = ''
 global.ig = 'https://www.instagram.com/yoruichi.xd1'
-global.md = ''
+global.md = 'https://github.com/Zkbxjfnfeidbxudndk/Rukai.git'
 global.fb = ''
 global.tk = 'https://www.tiktok.com/@rukia_b.l'
 global.ths = ''
