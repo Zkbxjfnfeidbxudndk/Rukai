@@ -17,8 +17,8 @@ if (isOwner || isROwner || isPrems) return
 let user = global.db.data.users[m.sender]
 const sender = m.sender
 const currentTime = new Date().getTime()
-const timeWindow = 5000 // tiempo límite 
-const messageLimit = 10 // cantidad de mensajes en dicho tiempo
+const timeWindow = 5000 // حد زمني  
+const messageLimit = 10 // عدد الرسائل في ذلك الوقت 
 
 let time, time2, time3, mensaje, motive
 time = 30000 // 30 seg
