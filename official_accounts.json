@@ -1,4 +1,4 @@
-// ضع مواقع تواصل
+//ضع مواقع تواصل
 {
 "info": {
 "accounts": {
@@ -15,7 +15,7 @@
 "all": ""
 },
 "channels": {
-"channel1": "https://whatsapp.com/channel/0029VbA5scz0VycPOBi6A32G",// ضع رابط قناه
+"channel1": "https://whatsapp.com/channel/0029VbA5scz0VycPOBi6A32G",//ضع رابط قناه
 "channel2": "https://whatsapp.com/channel/0029VbA5scz0VycPOBi6A32G",
 "channel3": "https://whatsapp.com/channel/0029VbA5scz0VycPOBi6A32G",
 "channel4": ""
