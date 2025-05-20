@@ -1449,7 +1449,7 @@ function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]
 }}
 
 /**
- * Handle groups participants update
+ * التعامل مع تحديث المشاركين في المجموعات 
  * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['group-participants.update']} groupsUpdate 
  */
 export async function participantsUpdate({ id, participants, action }) {
@@ -1528,7 +1528,7 @@ break
 }}
 
 /**
- * Handle groups update
+ * تحديث مجموعات المقبض 
  * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['groups.update']} groupsUpdate 
  */
 export async function groupsUpdate(groupsUpdate) {
@@ -1539,10 +1539,7 @@ const id = groupUpdate.id
 if (!id) continue
 let chats = global.db.data?.chats?.[id], text = ''
 if (!chats?.detect) continue
-// if (groupUpdate.desc) text = (chats.sDesc || this.sDesc || conn.sDesc || '```Description has been changed to```\n@desc').replace('@desc', groupUpdate.desc)
-//if (groupUpdate.subject) text = (chats.sSubject || this.sSubject || conn.sSubject || '```Subject has been changed to```\n@subject').replace('@subject', groupUpdate.subject)
-//if (groupUpdate.icon) text = (chats.sIcon || this.sIcon || conn.sIcon || '```Icon has been changed to```').replace('@icon', groupUpdate.icon)
-//if (groupUpdate.revoke) text = (chats.sRevoke || this.sRevoke || conn.sRevoke || '```Group link has been changed to```\n@revoke').replace('@revoke', groupUpdate.revoke)
+// إذا (groupUpdate.desc) text = (chats.sDesc || this.sDesc || conn.sDesc || ````تم تغيير الوصف إلى```\n@desc').replace('@desc', groupUpdate.desc) //إذا (groupUpdate.subject) text = (chats.sSubject || this.sSubject || conn.sSubject || ````تم تغيير الموضوع إلى```\n@subject').replace('@subject', groupUpdate.subject) //إذا (groupUpdate.icon) text = (chats.sIcon || this.sIcon || conn.sIcon || ````تم تغيير الرمز إلى```').replace('@icon', groupUpdate.icon) //إذا (groupUpdate.revoke) text = (chats.sRevoke || this.sRevoke || conn.sRevoke || ''```تم تغيير رابط المجموعة إلى```\n@revoke').replace('@revoke', groupUpdate.revoke) 
 if (!text) continue
 await this.sendMessage(id, { text, mentions: this.parseMention(text) })
 }}
@@ -1554,8 +1551,8 @@ for (let nk of callUpdate) {
 if (nk.isGroup == false) {
 if (nk.status == "offer") {
 let callmsg = await this.reply(nk.from, `${lenguajeGB['smsCont15']()} *@${nk.from.split('@')[0]}*, ${nk.isVideo ? lenguajeGB.smsCont16() : lenguajeGB.smsCont17()} ${lenguajeGB['smsCont18']()}`, false, { mentions: [nk.from] })
-//let data = global.owner.filter(([id, isCreator]) => id && isCreator)
-//await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
+//دع البيانات = global.owner.filter(([id, isCreator]) => id && isCreator)
+//انتظر this.sendContact(nk.from, data.map(([id, name]) => [id, name])، false، { مقتبس: callmsg }) 
 await this.updateBlockStatus(nk.from, 'block')
 }}}}
 
@@ -1595,7 +1592,7 @@ unreg: lenguajeGB['smsUnreg'](),
 restrict: lenguajeGB['smsRestrict'](),
 }[type]
 	
-//if (msg) return m.reply(msg)
+//إذا (الرسالة) ارجع m.reply(الرسالة) 
 	
 let tg = { quoted: m, userJid: conn.user.jid }
 let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, 'تـطـويـر 🪶 + gt + ' 🪻', '╰⊰⊹✿🇩🇿✿⊹⊱╮'].getRandom(), thumbnail: gataImg, sourceUrl: accountsgb }}}}, tg)
@@ -1606,5 +1603,5 @@ const file = global.__filename(import.meta.url, true);
 watchFile(file, async () => {
 unwatchFile(file)
 console.log(chalk.redBright('Update \'handler.js\''));
-//if (global.reloadHandler) console.log(await global.reloadHandler());
+//إذا (global.reloadHandler) console.log(انتظر global.reloadHandler ());
 })
