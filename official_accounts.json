@@ -1,4 +1,4 @@
-//ضع مواقع تواصل
+
 {
 "info": {
 "accounts": {
@@ -15,13 +15,13 @@
 "all": ""
 },
 "channels": {
-"channel1": "https://whatsapp.com/channel/0029VbA5scz0VycPOBi6A32G",//ضع رابط قناه
+"channel1": "https://whatsapp.com/channel/0029VbA5scz0VycPOBi6A32G",
 "channel2": "https://whatsapp.com/channel/0029VbA5scz0VycPOBi6A32G",
 "channel3": "https://whatsapp.com/channel/0029VbA5scz0VycPOBi6A32G",
 "channel4": ""
 },
 "groups": {
-"group1": "",//ضع رابط المجموعات
+"group1": "",
 "group2": "",
 "group3": "",
 "group4": "",
