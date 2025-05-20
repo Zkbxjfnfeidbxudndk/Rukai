@@ -1,4 +1,4 @@
-// Esta versión actualizada detecta enlaces aunque no tengan presente el protocolo https
+// يكتشف هذا الإصدار المحدث الروابط حتى لو لم يكن بروتوكول https موجودًا فيها. 
 
 const linkRegex = (text) => {
 const urlRegex = /(?:[a-zA-Z]+:\/\/[^\s]+)|(?:\b(www\.|ftp\.)[^\s]+\.[a-z]{2,}\/?[^\s]*)|(?:\b[a-z0-9.-]+\.[a-z]{2,}(?:\/[^\s]*)?)/gi
